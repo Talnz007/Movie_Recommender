@@ -14,7 +14,6 @@ def fetch_poster(movie_id):
 
 
 movies = pickle.load(open("movies_list.pkl", 'rb'))
-similarity = pickle.load(open("similarity.pkl", 'rb'))
 movies_list = movies['title'].values
 
 st.header("Movie Recommender System")
